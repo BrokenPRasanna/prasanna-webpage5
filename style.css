@@ -1,0 +1,120 @@
+body{
+    width: 500px;
+    height: 100%;
+    margin-left: 400px;
+    margin-top: 0;
+    background-color: black;
+}
+.container1{
+    background-color: #3ebeff;
+    width: 500px;
+    height: 100%;
+    margin: 100px;
+}
+#header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px;
+    margin-top: 20px;
+}
+a{
+    margin: 10px;
+    text-decoration: none;
+    color: white;
+}
+#contact{
+    color: black;
+    background-color: white;
+    border-radius: 30px;
+    padding: 10px;
+}
+.first{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.first img{
+    width: 450px;
+    height: 250px;
+}
+.first h1{
+    color: white;
+}
+#logo{
+    margin-top: 20px;
+    width: 100px;
+    height: 20px;
+}
+#links{
+    margin-top: 20px;
+}
+#arrow{
+    height: 50px;
+    width: 15px;
+    position:relative;
+    top: 150px;
+}
+.second{
+    position: relative;
+    bottom: 100px;
+    background-color: white;
+    margin-left: 100px;
+    margin-top: 10px;
+    width: 200px;
+    height: 200px;
+    padding: 25px;
+    display: flex;
+}
+#learnmore{
+    font-weight: bold;
+    color: black;
+    text-decoration: underline hsl(51, 100%, 49%);
+}
+.second p{
+    color: hsl(264, 2%, 60%);
+    width: 250px;
+    text-align: left;
+    font-size: 14px;
+}
+#egg{
+    position: relative;
+    bottom: 25px;
+    right: 25px;
+    width: 250px;
+    height: 250px;
+}
+#glass{
+    position: relative;
+    left: 100px;
+    bottom: 100px;
+    width: 250px;
+    height: 250px;
+}
+.secondrow{
+    background-color: white;
+    position: relative;
+    bottom: 365px;
+    left: 350px;
+    margin-top: 10px;
+    width: 200px;
+    height: 200px;
+    padding: 25px;
+}
+#learnmore1{
+    font-weight: bold;
+    color: black;
+    text-decoration: underline hsl(7, 96%, 69%);
+}
+.secondrow p{
+    color: hsl(264, 2%, 60%);
+    width: 250px;
+    text-align: left;
+    font-size: 14px;
+    width: 200px;
+}
+.attribution{
+    color: white;
+    position: relative;
+    left: 100px;
+}
